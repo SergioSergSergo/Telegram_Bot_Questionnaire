@@ -4,3 +4,4 @@ Tg_bot_env
 bot.err.log
 bot.out.log
 supervisord.log
+supervisord.pid
