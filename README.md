@@ -78,38 +78,8 @@ python bot.py
 
 The bot will start polling Telegram for messages.
 
----
-
-## 📁 Project Structure
-
-```
-Telegram_Bot_Questionnaire/
-├── bot.py               # Main bot script
-├── questionnaire.py     # Handlers for each question
-├── tg_bot/              # (Optional) Submodules or additional bot logic
-├── .env                 # Secrets (ignored by Git)
-├── .gitignore
-├── requirements.txt
-├── render.yaml          # (Optional) For Render.com deployment
-├── Procfile             # (Optional) For Heroku/Render deployment
-└── README.md
-```
-
----
 
 ## 💡 Deployment
 
 - Works locally or on cloud platforms like **Render**, **Heroku**, etc.
 - Ensure that `render.yaml` or `Procfile` is configured for your platform
-
----
-
-## 🤝 Contributions
-
-Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to change.
-
----
-
-## 📄 License
-
-MIT License – do what you want, but don't blame me. 😄
