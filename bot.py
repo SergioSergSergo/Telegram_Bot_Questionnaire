@@ -16,6 +16,10 @@ from questionnaire import (
     get_requests, get_used_consultants, get_format, get_referral, get_confirm,  cancel, restart, provide_calendly, timeout_callback
 )
 # Load environment variables
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 
 
 load_dotenv(dotenv_path=".env")
@@ -42,7 +46,7 @@ def main():
     )
     app.bot_data['chat_id'] = CHAT_ID
     app.bot_data['calendly_url'] = CALENDLY_URL
-
+    logger.info("Bot started")
     #  Conversation handler for the questionnaire
     conv_handler = ConversationHandler(
 
@@ -86,7 +90,7 @@ def main():
         CommandHandler("start", start),
         CommandHandler("help", help_command),],
 
-    conversation_timeout=30,  # 1 хвилина до завершення сесії без дій
+    conversation_timeout=600,  # 10 хвилина до завершення сесії без дій
 )
     # Register handlers
     app.add_handler(conv_handler)

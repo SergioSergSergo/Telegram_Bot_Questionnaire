@@ -1,2 +1,5 @@
-python-telegram-bot[callback-data,job-queue]==20.6
+python-telegram-bot==20.6
 python-dotenv
+APScheduler
+httpx
+supervisor

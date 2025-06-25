@@ -1,0 +1,4 @@
+2025-06-25 20:03:02,547 INFO daemonizing the supervisord process
+2025-06-25 20:03:02,547 INFO supervisord started with pid 1676739
+2025-06-25 20:03:03,552 INFO spawned: 'telegram_bot' with pid 1676741
+2025-06-25 20:03:05,416 INFO success: telegram_bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

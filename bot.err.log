@@ -1,0 +1,28 @@
+INFO:__main__:Bot started
+/home/s.hlotov@ad.loc/Projects/Others/Telegram_Bot_Questionnaire/bot.py:51: PTBUserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message. Read this FAQ entry to learn more about the per_* settings: https://github.com/python-telegram-bot/python-telegram-bot/wiki/Frequently-Asked-Questions#what-do-the-per_-settings-in-conversationhandler-do.
+  conv_handler = ConversationHandler(
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/getMe "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/deleteWebhook "HTTP/1.1 200 OK"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/sendMessage "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/sendMessage "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/sendMessage "HTTP/1.1 200 OK"
+INFO:apscheduler.scheduler:Added job "_trigger_timeout" to job store "default"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/sendMessage "HTTP/1.1 200 OK"
+INFO:apscheduler.scheduler:Added job "_trigger_timeout" to job store "default"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/getUpdates "HTTP/1.1 200 OK"
+INFO:apscheduler.scheduler:Removed job f90984ff584b48359a0e4a5cbfae21fc
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/sendMessage "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/sendMessage "HTTP/1.1 200 OK"
+INFO:apscheduler.scheduler:Added job "_trigger_timeout" to job store "default"
+INFO:apscheduler.scheduler:Removed job 11eca441cc1441eabc151cf9218f7324
+INFO:apscheduler.executors.default:Running job "_trigger_timeout (trigger: date[2025-06-25 17:03:34 UTC], next run at: 2025-06-25 17:03:34 UTC)" (scheduled at 2025-06-25 17:03:34.364267+00:00)
+INFO:apscheduler.executors.default:Job "_trigger_timeout (trigger: date[2025-06-25 17:03:34 UTC], next run at: 2025-06-25 17:03:34 UTC)" executed successfully
+INFO:apscheduler.scheduler:Removed job eb942e2aae574adf982de0ebd7c732d4
+INFO:apscheduler.executors.default:Running job "_trigger_timeout (trigger: date[2025-06-25 17:03:53 UTC], next run at: 2025-06-25 17:03:53 UTC)" (scheduled at 2025-06-25 17:03:53.688846+00:00)
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/sendMessage "HTTP/1.1 200 OK"
+INFO:apscheduler.executors.default:Job "_trigger_timeout (trigger: date[2025-06-25 17:03:53 UTC], next run at: 2025-06-25 17:03:53 UTC)" executed successfully
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7981457441:AAFdvy8Gin5w3B9MI0YJPqN9WTOErta-I7o/getUpdates "HTTP/1.1 200 OK"

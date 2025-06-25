@@ -1,3 +1,6 @@
 .env
 __pycache__
 Tg_bot_env
+bot.err.log
+bot.out.log
+supervisord.log
